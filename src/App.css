@@ -1,0 +1,241 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+/* Header section styling */
+.nav {
+  top: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 80px;
+  gap: 10px;
+
+  width: 100vw;
+  height: 72px;
+
+  background: #FFFFFF;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  /* position: sticky;
+  top: 0%;
+  background-color: #FFFFFF; */
+}
+
+.edyoda {
+  font-family: 'Raleway';
+  vertical-align: middle;
+  font-weight: 900;
+  font-size: 38px;
+  margin-right: 10%;
+  background: linear-gradient(90.72deg, #0096FF 42.18%, #0048FF 93.77%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+select {
+  border: none;
+  padding: 1%;
+
+}
+
+
+.btn {
+  padding: 10px 42px;
+  width: 166px;
+  height: 40px;
+  color: white !important;
+  background: linear-gradient(266.79deg, #0048FF 4.63%, #0096FF 100%);
+  border-radius: 52px;
+}
+
+/* discription about course section */
+
+.display {
+  position: relative;
+  width: 100vw;
+  height: 1008px;
+  left: 0px;
+  top: 2px;
+}
+
+.Access {
+  width: 799px;
+  height: 70px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 125%;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.01em;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
+.ninenine {
+  width: 121px;
+  height: 80px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 125%;
+  /* identical to box height, or 80px */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.01em;
+
+  color: #0096FF;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.strikeoff {
+  text-decoration: line-through;
+  text-decoration-color: red;
+}
+
+.details span {
+  color: #0096FF;
+}
+
+.details .row {
+  margin-top: 3%;
+  vertical-align: middle;
+}
+
+.details p {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-style: normal;
+  font-size: 32px;
+  color: white !important;
+  letter-spacing: 0.03em;
+
+}
+
+.details img {
+
+  margin-right: 50%;
+  width: 59.46px;
+  height: 60.8px;
+}
+
+/* subscription options and payment section */
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 24px;
+  gap: 28px;
+  position: absolute;
+  width: 549px;
+  height: 881.69px;
+  left: 1269px;
+  top: 72px;
+  background: #FFFFFF;
+  border-radius: 8px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0% !important;
+}
+
+.expairedoff {
+  width: 40% !important;
+  position: relative;
+  z-index: 5;
+  top: -0px;
+  left: 10%;
+}
+
+.recommended {
+  width: 40% !important;
+  position: relative;
+  z-index: 2;
+  top: -0px;
+  left: 10%;
+}
+
+li {
+  font-size: 0.9rem;
+  padding-bottom: 15px;
+  padding-left: 16px;
+  padding-right: 16px;
+  width: 501px;
+  height: 65px;
+  background: #FFFFFF;
+  border: 2px solid #BEBEBE;
+  border-radius: 4px;
+  margin-top: 3%;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+label {
+  margin-left: 3%;
+}
+
+li p {
+  font-size: 0.6rem;
+  vertical-align: middle;
+}
+
+
+.btn2 {
+  padding: 5px 20px;
+  width: 242.5px;
+  height: 56px;
+  background: #47BA68;
+  border-radius: 4px;
+  color: white;
+  border: none;
+  padding: 10px 42px;
+  font-family: 700;
+}
+
+.btn3 {
+  padding: 5px 20px;
+  width: 242.5px;
+  height: 56px;
+  background: #FFFFFF;
+  border-radius: 4px;
+  color: red;
+  border: none;
+  padding: 10px 42px;
+  font-family: 700;
+  border: 2px solid red
+}
+
+.rzpay {
+  position: relative;
+  width: 120px;
+  height: 42.69px;
+  left: 0px;
+  top: 5%;
+}
+
+.active {
+  background: #D7EDDD;
+  border: 2px solid #47BA68;
+}
